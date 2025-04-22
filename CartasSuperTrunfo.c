@@ -2,7 +2,7 @@
 
 //Variaveis para armazenamento de dados das cartas
 char estado[10], codigoCidade[20], uf[2]; //Armazenamento de strings
-int populacao, poontosTuristicos; //Armazenamento de numeros inteiros
+int populacao, pontosTuristicos; //Armazenamento de numeros inteiros
 float area, pib; //Armazenamento de numeros flotantes
 
 //Registro da primeira carta
@@ -20,7 +20,7 @@ void cartaA(){
     printf("Digite o pib: ");
     scanf("%f", &pib);
     printf("Digite o numero de pontos turisticos: ");
-    scanf("%d", &poontosTuristicos);
+    scanf("%d", &pontosTuristicos);
 }
 //Registro da segunda carta
 void cartaB(){
@@ -38,7 +38,7 @@ void cartaB(){
     printf("Digite o pib: ");
     scanf("%f", &pib);
     printf("Digite o numero de pontos turisticos: ");
-    scanf("%d", &poontosTuristicos);
+    scanf("%d", &pontosTuristicos);
 }
 
 //* Exibir cartas **/
@@ -49,7 +49,7 @@ void exibirCartas(){
     printf("Populacao: %d\n", populacao);
     printf("Area: %.2f\n", area);
     printf("Pib: %.2f\n", pib);
-    printf("Pontos turisticos: %d\n", poontosTuristicos);
+    printf("Pontos turisticos: %d\n", pontosTuristicos);
 }
 //* Exibir cartas A **/
 void exibirCartasA(){
